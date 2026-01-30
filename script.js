@@ -8,7 +8,7 @@ const fileCancelButton = document.querySelector('#file-cancel')
 const chatbotToggler = document.querySelector('#chatbot-toggler')
 const closeChatbot = document.querySelector('#close-chatbot')
 
-const API_KEY = "YOUR_API_KEY_HERE"; // Get your free key from https://console.groq.com/keys
+const API_KEY = "API_KEY_HERE"; //replace with the actual api key
 const API_URL = "https://api.groq.com/openai/v1/chat/completions";
 
 const userData = {
